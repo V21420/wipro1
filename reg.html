@@ -8,6 +8,7 @@
 
 <div style="background-image: url('assest/2.jpg');" class="header">
     <a href="#default" class="logo">Live Virtual Class</a>
+    <audio src="assest/11.mp3" controls></audio>
 </div>
 
 <nav>
@@ -18,23 +19,48 @@
         <a href="contact.html">Contact us</a>&nbsp;
       </div>
 </nav>
+<div class="iframe-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/zO_kX876IHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <form class="frm" id="shadow">
+    <h2>Register yourself</h2>
+    <label for="fname">Full Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="full name" required><br>
+    
+    <label for="desc">Designation : </label>
+    <select name="" id="desc">
+    <option value="collage">from collage</option>
+    <option value="management">management</option>
+    <option value="student">student</option>
+    <option value="student">other</option>
+    </select><br>
+    
+    <label for="gender">Gender : </label>
+    <input type="radio" id="gender" name="gender" value="male"> Male
+    <input type="radio" id="gender" name="gender" value="female"> Female
+    <br>
+    <label for="">Tech Skills : </label>
+    <input type="checkbox" id="v1" name="" value="">
+  <label for="v1"> Java</label>
+
+  <input type="checkbox" id="v2" name="" value="">
+  <label for="v2"> Machine Learning</label>
+
+  <input type="checkbox" id="v3" name="" value="">
+  <label for="vehicle3"> Cloud</label><br>
+
+  <label for="remark">Remarks : </label>
+  <textarea name="" id="remark" required cols="30" rows="1"></textarea><br><br>
+    
+    
+    <input type="submit" value="Submit">
+  </form> <br><br>
+</div>
+
+ 
 
 
-<form class="frm">
-  <h2>Register yourself</h2>
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" placeholder="first name"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" placeholder="last name"><br>
-  <label for="course">Course name:</label><br>
-  <input type="text" id="course" name="fname" placeholder="course name"><br>
-  <label for="contact">Contact no:</label><br>
-  <input type="text" id="contact" name="contact" placeholder="contact no"><br><br>
-  
-  <input type="submit" value="Submit">
-</form>  
-
-<div class="f">
+<div class="f1">
   <footer>
     <p>This is the footer of the page</p>
     <a href="https://github.com/V21420">Visist my github account</a>
